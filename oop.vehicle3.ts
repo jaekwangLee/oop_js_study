@@ -267,7 +267,7 @@
   // make car !
   // tires
   const normalTires = new FourSeasonTire("Nexen", "four season", 4);
-  const summerTires = new SummerTire("Kumho", "summer", 4, ["slip"]);
+  const summerTires = new SummerTire("Kumho", "summer", 4);
   // engine
   const gdi = new GDI(320, 52);
   const mpi = new MPI(180, 23);
